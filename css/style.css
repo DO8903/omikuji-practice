@@ -1,0 +1,30 @@
+body {
+  background-color: rgba(217, 196, 255, 0.932);
+}
+
+#btn {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 250px;
+  background-color: brown;
+  height: 400px;
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 10%;
+  line-height: 400px;
+  cursor: pointer;
+  box-shadow: 10px 10px #800000;
+  user-select: none;
+}
+
+#btn:hover {
+  opacity: 0.8;
+}
+
+#btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
